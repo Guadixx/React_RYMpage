@@ -1,0 +1,53 @@
+
+.cartasIn{
+    background-color: rgb(209, 213, 218);
+    width: 35%;
+    border: 2px solid black;
+    margin: 2rem;
+    color:rgb(4, 34, 90);
+    border-radius: 10px;
+    box-shadow: rgba(11, 5, 20, 0) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+input{
+    width:20%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:8px;
+}
+
+.cartas{
+    margin:30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.cartasIn > h1{
+    font-size:1.8rem;
+    margin-top:2px;
+    margin:1rem;
+    color:rgb(11, 8, 48);
+    font-weight: 600;
+}
+
+.cartasIn > h2{
+    font-size:1.3rem;
+    margin-top:2px;
+    margin:1rem;
+    font-weight: 500;
+}
+.cartasIn > img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    width:80%;
+    position: relative;
+    left:39px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}

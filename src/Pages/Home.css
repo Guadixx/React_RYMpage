@@ -1,0 +1,41 @@
+.rym-title{
+    font-weight: 300;
+    margin-bottom:160px;
+}
+.rym-title > h1{
+    font-weight: 400;
+    margin:50px;
+}
+.rym-layout {
+    margin-top: rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7rem;
+    flex-wrap: wrap;
+  }
+
+.rym-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    width: 50vh;
+    height: 400px;
+  }
+  
+  .rym-article > img {
+    width: 350px;
+    border: 3px solid var(--atm-color-prymary);
+    border-radius: 10px;
+  }
+  
+  .rym-article > h1 {
+    background-color: #1f403e;
+    border-radius: 6px;
+    width: 70%;
+    font-size: 20px;
+    font-weight: 400;
+    padding:20px;
+  }
